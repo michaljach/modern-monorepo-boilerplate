@@ -1,0 +1,13 @@
+{
+  "name": "@namespace/components",
+  "version": "1.0.0",
+  "description": "Shared component library",
+  "author": "Michal Jach <michal@jach.me>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  }
+}

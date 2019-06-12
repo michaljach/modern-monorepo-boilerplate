@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-test-renderer": "^16.8.1",
+    "@types/storybook__react": "^4.0.2",
+    "customize-cra": "^0.2.13",
+    "react-app-rewired": "^2.1.3",
+    "react-scripts": "^3.0.1",
+    "react-test-renderer": "^16.8.6",
+    "thread-loader": "^2.1.2",
+    "typescript": "^3.5.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "test": "jest",
+    "build": "lerna run build --stream",
+    "start": "lerna run start --stream"
+  },
+  "dependencies": {
+    "@storybook/addon-knobs": "^5.1.3",
+    "@storybook/react": "^5.1.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "styled-system": "^5.0.6"
+  }
+}
