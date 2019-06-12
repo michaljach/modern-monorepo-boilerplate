@@ -12,16 +12,4 @@ module.exports = {
       return config;
     },
   ),
-
-  jest: config => {
-    return config;
-  },
-
-  devServer: configFunction => (proxy, allowedHost) => {
-    return config;
-  },
-
-  paths: (paths, env) => {
-    return paths;
-  }
 };
