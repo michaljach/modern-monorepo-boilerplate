@@ -4,6 +4,7 @@
 ## Usage
 Running this project should be very easy, quick and automatic using monorepo apporach.
 
+- Install [lerna](https://github.com/lerna/lerna) first: `npm i lerna -g`
 - Run `npm run bootstrap` to install all dependencies and setup monorepo symlinks using [lerna](https://github.com/lerna/lerna).
 - Run `npm start` to start development server with all packages included, by default you'll run `@namespace/react-app`.
 - Run `npm test` to test all packages simultaneously.
