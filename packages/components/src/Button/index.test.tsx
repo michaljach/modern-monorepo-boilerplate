@@ -1,11 +1,9 @@
-import React from 'react';
+import * as React from 'react';
 import Button from '.';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
 
-it('renders correctly', (): void => {
-  const tree = renderer
-    .create(<Button />)
-    .toJSON();
+test('render a label', (): void => {
+  const wrapper = shallow(<Button/>);
 
-  expect(tree).toMatchSnapshot();
+  expect(wrapper).toMatchSnapshot();
 });

@@ -1,7 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
-<button>
-  Hello from shared button
-</button>
-`;
+exports[`render a label 1`] = `ShallowWrapper {}`;
