@@ -1,11 +1,11 @@
-# CET (Client Engagement Team) Monorepo
+# Modern Monorepo Boilerplate
 [![Build Status](https://travis-ci.com/wixplosives/sample-monorepo.svg?branch=master)](https://travis-ci.com/wixplosives/sample-monorepo)
 
 ## Usage
 Running this project should be very easy, quick and automatic using monorepo apporach.
 
 - Run `npm run bootstrap` to install all dependencies and setup monorepo symlinks using [lerna](https://github.com/lerna/lerna).
-- Run `npm start` to start development server with all packages included, by default you'll run `@cet/my-ig-fe`.
+- Run `npm start` to start development server with all packages included, by default you'll run `@namespace/react-app`.
 - Run `npm test` to test all packages simultaneously.
 
 
@@ -32,19 +32,14 @@ Running this project should be very easy, quick and automatic using monorepo app
 
 ### Included sample packages
 
-- **@cet/components**
+- **@namespace/components**
   - [React](https://github.com/facebook/react) components library.
   - Built as `cjs` (Node consumption) and `esm` (bundler consumption).
   
- - **@cet/automated-stock-transfer-fe**
+ - **@namespace/react-app**
     - [React](https://github.com/facebook/react) application.
     - Built with minimal [CRA](https://github.com/facebook/create-react-app) setup.
-    - Uses the `@cet/components` package (also inside monorepo).
-
-- **@cet/my-ig-fe**
-  - [Angular](https://angular.io/) application (soon to be replaced with React).
-  - Uses the `@cet/automated-stock-transfer-fe` package (also inside monorepo).
-  - Is our 'mother app' - default app to start with `npm start`.
+    - Uses the `@namespace/components` package (also inside monorepo).
 
 ### Basic structure and configurations
 ```
@@ -83,10 +78,10 @@ New `dependencies` can be added to the root `package.json` using npm:
 npm install <package name> [-D]
 ```
 
-Some packages depend on sibling packages within the monorepo. For example, in this repo, `@cet/automated-stock-transfer-fe` depends on `@cet/components`. This relationship is just a normal dependency, and can be described in the `package.json` of `@cet/automated-stock-transfer-fe` like so:
+Some packages depend on sibling packages within the monorepo. For example, in this repo, `@namespace/react-app` depends on `@namespace/components`. This relationship is just a normal dependency, and can be described in the `package.json` of `@namespace/react-app` like so:
 
 ```json
 "dependencies": {
-  "@cet/components": "<package version>"
+  "@namespace/components": "<package version>"
 }
 ```
