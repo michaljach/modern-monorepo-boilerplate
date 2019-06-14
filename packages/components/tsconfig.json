@@ -3,8 +3,9 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "build",
-    "baseUrl": "src",
     "module": "commonjs"
   },
-  "include": ["./src/"]
+  "include": [
+    "src/**/*"
+  ]
 }

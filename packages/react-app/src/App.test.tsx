@@ -1,0 +1,9 @@
+import * as React from 'react';
+import { Button } from '@namespace/components';
+import { shallow } from 'enzyme';
+
+test('render a label', (): void => {
+  const wrapper = shallow(<Button/>);
+
+  expect(wrapper).toMatchSnapshot();
+});

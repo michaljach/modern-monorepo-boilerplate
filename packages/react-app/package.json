@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "src/index.tsx",
+  "module": "src/index.tsx",
   "dependencies": {
     "@namespace/components": "*"
   },

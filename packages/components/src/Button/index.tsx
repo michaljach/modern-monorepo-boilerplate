@@ -1,6 +1,6 @@
-import React, { ReactElement } from 'react';
+import * as React from 'react';
 
-const Button = (): ReactElement => (
+const Button = (): React.ReactElement => (
   <button>Hello from shared button</button>
 );
 

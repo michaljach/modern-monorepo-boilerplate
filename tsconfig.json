@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
-    "baseUrl": "./packages",
     "outDir": "./build",
-    "module": "esnext",
+    "module": "commonjs",
     "target": "es5",
     "lib": ["es6", "dom"],
     "sourceMap": true,
@@ -17,16 +16,10 @@
     "strictNullChecks": false,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": false,
-    "allowSyntheticDefaultImports": true
-  },
-  "exclude": [
-    "lib",
-    "node_modules",
-    "build",
-    "scripts",
-    "acceptance-tests",
-    "webpack",
-    "jest",
-    "src/setupTests.ts"
-  ]
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@namespace/*": ["packages/*/src"]
+    }
+  }
 }
