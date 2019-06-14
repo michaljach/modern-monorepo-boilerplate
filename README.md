@@ -1,5 +1,5 @@
 # Modern Monorepo Boilerplate
-[![Build Status](https://travis-ci.com/wixplosives/sample-monorepo.svg?branch=master)](https://travis-ci.com/wixplosives/sample-monorepo)
+[![CircleCI](https://circleci.com/gh/michaljach/modern-monorepo-boilerplate/tree/master.svg?style=svg)](https://circleci.com/gh/michaljach/modern-monorepo-boilerplate/tree/master)
 
 ## Usage
 Running this project should be very easy, quick and automatic using monorepo apporach.
