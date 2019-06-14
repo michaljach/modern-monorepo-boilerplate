@@ -17,9 +17,6 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": false,
     "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
-    "paths": {
-      "@namespace/*": ["packages/*/src"]
-    }
+    "baseUrl": "."
   }
 }
