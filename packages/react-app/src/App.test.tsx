@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { Button } from '@namespace/components';
 import { shallow } from 'enzyme';
 

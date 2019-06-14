@@ -22,7 +22,7 @@
     "test": "jest",
     "build": "lerna run build --stream",
     "start": "lerna run start --stream",
-    "lint": "eslint packages/**/src/* --ext .ts,.tsx,.js,.jsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
     "react": "^16.8.6",
