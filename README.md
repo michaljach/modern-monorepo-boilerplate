@@ -1,4 +1,4 @@
-# Modern Monorepo Boilerplate
+# `Modern Monorepo Boilerplate`
 [![CircleCI](https://circleci.com/gh/michaljach/modern-monorepo-boilerplate/tree/master.svg?style=svg)](https://circleci.com/gh/michaljach/modern-monorepo-boilerplate/tree/master)
 
 ## Usage
