@@ -3,35 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@namespace/components": "^0.1.0",
-    "@types/jest": "24.0.19",
-    "@types/node": "12.11.1",
-    "@types/react": "16.9.9",
-    "@types/react-dom": "16.9.2",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0",
-    "typescript": "3.6.4"
+    "@namespace/components": "^0.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-app-rewired start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "peerDependencies": {
+    "@types/jest": "24.0.19",
+    "@types/node": "12.11.1",
+    "@types/react": "16.9.9",
+    "@types/react-dom": "16.9.2",
+    "customize-cra": "^0.8.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "typescript": "3.6.4"
   }
 }
