@@ -20,8 +20,8 @@ Running this project should be very easy, quick and automatic using monorepo app
   - Packages are automatically linked together, meaning you can do cross-package work within the repo with hot module reloading and without any building.
   - Commonly used dependencies are hoisted from root, and only appear in the root `package.json`.
   - All shared dependencies appear only as `peerDependecies` in each package.
-  - Running `yarb build` makes production-ready builds of all packages.
-  - Running `yarb test` runs tests for all packages at once.
+  - Running `yarn build` makes production-ready builds of all packages.
+  - Running `yarn test` runs tests for all packages at once.
   - Each package has its own `scripts` and `dependencies` keys. They are being installed in the root `node_modules` and you can still run standalone commands within each package from its `scripts`.
   - Adding new packages is as simple as dropping an existing package in the `packages` folder, and re-running `yarn bootstrap`.
 
