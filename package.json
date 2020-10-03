@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
     "start": "lerna run start --stream",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "jest"
