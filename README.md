@@ -93,3 +93,17 @@ Some packages depend on sibling packages within the monorepo. For example, in th
   "@namespace/components": "<package version>"
 }
 ```
+
+## Testing
+
+```
+
+rm -fr node_modules
+
+yarn
+
+yarn start
+
+yarn cosmos
+
+```
